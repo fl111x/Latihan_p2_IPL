@@ -11,6 +11,6 @@ public class Vegetable extends  FoodProduct{
 
     @Override
     Date getExpirationDate() {
-        return null;
+        return new Date();
     }
 }
